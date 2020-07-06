@@ -26,6 +26,6 @@ echo "\n";
 # git commit -m "commit message";
 
 git push origin master;
-echo -e "\n";
-echo -e "the commit below was made with apush:";
+echo "\n";
+echo "the commit below was made with apush:";
 git log -1;
