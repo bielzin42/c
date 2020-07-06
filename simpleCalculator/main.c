@@ -19,7 +19,9 @@ void main()
 
 		if(chose == 0)
 		{
-			printf("Do you want to do any operation? 												\n1 - sum \n2 - sub \n3 - multiplication 											\n4 - division \n5 - Exit program\n");
+			printf("Do you want to do any operation?");
+			printf("\n1 - sum \n2 - sub \n3 - multiplication");
+			printf("\n4 - division \n5 - Exit program\n");
 
 			scanf("\n%d", &chose);
 		}
