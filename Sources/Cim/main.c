@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include "operations.h"
 
-//double ft_sum(double firstValue, double secondValue);
-//double ft_sub(double firstValue, double secondValue);
-//double ft_mult(double firstValue, double secondValue);
-//double ft_div(double firstValue, double secondValue);
-
 void main()
 {
 	int chose = 0;
@@ -16,7 +11,8 @@ void main()
 	double secondValue;
 
 
-	while(repeat == 0){
+	while(repeat == 0)
+	{
 
 		if(chose == 0)
 		{
